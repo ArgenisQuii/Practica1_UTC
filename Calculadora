@@ -6,6 +6,8 @@ public class GitHub_Calculadora
     public static void main(String[] args) 
     
     {
+
+//a
         Scanner sc = new Scanner(System.in);
         double num1, num2, resultado;
         char operador;
