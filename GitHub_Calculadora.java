@@ -11,19 +11,24 @@ public class GitHub_Calculadora
         char operador;
 
         System.out.println("Calculadora para GitHub");
-        System.out.print("Ingrese el primer número: ");
+        System.out.print("Ingrese el primer nï¿½mero: ");
         num1 = sc.nextDouble();
 
         System.out.print("Ingrese el operador (+, -, *, /): ");
         operador = sc.next().charAt(0);
 
-        System.out.print("Ingrese el segundo número: ");
+        System.out.print("Ingrese el segundo nï¿½mero: ");
         num2 = sc.nextDouble();
 
         switch (operador) 
         { 
             case '*':
                 resultado = num1 * num2;
+                System.out.println("Resultado: " + resultado);
+                break;
+
+            case '+':
+                resultado = num1 + num2;
                 System.out.println("Resultado: " + resultado);
                 break;
                 
@@ -41,7 +46,7 @@ public class GitHub_Calculadora
                 }
                 break;
             default:
-                System.out.println("Operador no válido.");
+                System.out.println("Operador no vï¿½lido.");
         }
     }
 
