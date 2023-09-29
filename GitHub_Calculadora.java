@@ -32,6 +32,11 @@ public class GitHub_Calculadora
                 System.out.println("Resultado: " + resultado);
                 break;
                 
+            case '-':
+	                resultado = num1 - num2;
+	                System.out.println("Resultado: " + resultado);
+	                break;
+
             case '/':
             	
                 if (num2 != 0)
